@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(gh --version 2>$null)",
+      "PowerShell(if \\(-not $?\\) { \"gh not found\" })",
+      "PowerShell($streamlit = \"C:\\\\Users\\\\aliss\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\Scripts\\\\streamlit.exe\"; if \\(Test-Path $streamlit\\) { \"Found: $streamlit\" } else { \"Not found\" })"
+    ]
+  }
+}
